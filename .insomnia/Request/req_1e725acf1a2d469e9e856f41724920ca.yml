@@ -1,0 +1,23 @@
+_id: req_1e725acf1a2d469e9e856f41724920ca
+type: Request
+parentId: wrk_17c7a16bb1144fec9570950226cc4c19
+modified: 1692620442972
+created: 1692620429290
+url: g1.com.br
+name: G1
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692620429290
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
