@@ -1,0 +1,30 @@
+_id: req_2f21c5176ad54388af9a322f78240956
+type: Request
+parentId: fld_9e9f80fd5fcb4ccf85b85c221315b0b6
+modified: 1692634520412
+created: 1692634520412
+url: "{{ _.base_url }}/pet/{{ _.petId }}"
+name: Deletes a pet
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: api_key
+    disabled: true
+    value: string
+authentication:
+  clientId: "{{ _.oauth2ClientId }}"
+  grantType: implicit
+  scope: write:pets read:pets
+  type: oauth2
+  redirectUrl: "{{ _.oauth2RedirectUrl }}"
+  authorizationUrl: https://petstore3.swagger.io/oauth/authorize
+metaSortKey: -1692634520412
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
