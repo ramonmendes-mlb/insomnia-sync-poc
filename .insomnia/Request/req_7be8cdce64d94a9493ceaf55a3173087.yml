@@ -1,0 +1,23 @@
+_id: req_7be8cdce64d94a9493ceaf55a3173087
+type: Request
+parentId: wrk_5305c86bb73544b091613d769e0dcb9c
+modified: 1692621442565
+created: 1692621429842
+url: terra.com.br
+name: TERRA
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.5
+authentication: {}
+metaSortKey: -1692621429842
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
